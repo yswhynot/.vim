@@ -6,8 +6,10 @@ set ignorecase
 set smartcase
 set mouse=a
 set number
-set shiftwidth=4
 set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 set encoding=utf-8
 
 " key mappings
