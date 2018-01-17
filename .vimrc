@@ -11,6 +11,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set encoding=utf-8
+set tags=tags
 
 " key mappings
 nmap <F2> :NERDTreeToggle<CR>
