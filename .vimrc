@@ -23,3 +23,6 @@ autocmd vimenter * NERDTree
 
 colorscheme Monokai
 
+" autohighlights
+autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
+highlight IncSearch guibg=darkgray ctermbg=darkgray term=underline
