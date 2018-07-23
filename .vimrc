@@ -22,7 +22,8 @@ nmap <F9> :TagbarToggle<CR>
 let NERDSpaceDelims=1
 autocmd vimenter * NERDTree
 let vim_markdown_preview_github=1
-
+let g:ycm_confirm_extra_conf = 1
+let g:ycm_global_ycm_extra_conf = ".vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 
 colorscheme Monokai
 
